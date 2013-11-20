@@ -23,10 +23,18 @@
             <scope>provided</scope>
         </dependency>
 
+<!-- XXX no ideas how to avoid duplicated classes.
         <dependency>
             <groupId>com.facebook.presto.hadoop</groupId>
             <artifactId>hadoop-cdh4</artifactId>
             <scope>provided</scope>
+        </dependency>
+-->
+        <dependency>
+            <groupId>com.facebook.presto.hadoop</groupId>
+            <artifactId>hadoop-cdh5</artifactId>
+            <scope>provided</scope>
+            <version>0.6</version>
         </dependency>
 
         <dependency>
